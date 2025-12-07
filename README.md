@@ -6,16 +6,16 @@ This repository contains a scientific presentation created using [Manim Communit
 ---
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Rendering Individual Scenes](#rendering-individual-scenes)
-- [Creating the Complete Presentation](#creating-the-complete-presentation)
-- [Editing Guide](#editing-guide)
-- [Troubleshooting](#troubleshooting)
-- [Credits](#credits)
+- [Overview](#-overview)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [Usage](#-usage)
+- [Rendering Individual Scenes](#-rendering-individual-scenes)
+- [Creating the Complete Presentation](#️-creating-the-complete-presentation)
+- [Editing Guide](#️-editing-guide)
+- [Troubleshooting](#-troubleshooting)
+- [Credits](#-credits)
 
 ---
 
@@ -104,7 +104,7 @@ SC_presentation/
 │   ├── scene1.py                    # Introduction with titles
 │   ├── scene2.py                    # Circle detection method
 │   ├── scene3.py                    # Polar transformation
-│   └── scene4_results_code.py       # Results and conclusions
+│   └── scene4.py     # Results and conclusions
 │
 ├── data/                            # Experimental data
 │   └── d4_T20_1.JPG                 # LN2-water experimental image
@@ -114,7 +114,7 @@ SC_presentation/
 │       ├── scene1/
 │       ├── scene2/
 │       ├── scene3/
-│       └── scene4_results_code/
+│       └── scene4/
 │
 ├── merge_list.txt                   # FFmpeg concat file for merging
 ├── requirements.txt                 # Python dependencies
@@ -174,7 +174,7 @@ manim -pql scenes/scene3.py PolarTransformScene
 
 ### Scene 4: Results
 ```bash
-manim -pql scenes/scene4_results_code.py ResultsScene
+manim -pql scenes/scene4.py ResultsScene
 ```
 **Duration**: ~25-30 seconds  
 **Content**: Intensity vs angle plot, peak detection, conclusions
@@ -190,7 +190,7 @@ manim -pql scenes/scene4_results_code.py ResultsScene
 manim -pqh scenes/scene1.py IntroSceneWithTitles
 manim -pqh scenes/scene2.py CircleDetectionScene
 manim -pqh scenes/scene3.py PolarTransformScene
-manim -pqh scenes/scene4_results_code.py ResultsScene
+manim -pqh scenes/scene4.py ResultsScene
 ```
 
 **Step 2**: Verify `merge_list.txt` has correct paths
@@ -198,7 +198,7 @@ manim -pqh scenes/scene4_results_code.py ResultsScene
 file 'media/videos/scene1/1080p60/IntroSceneWithTitles.mp4'
 file 'media/videos/scene2/1080p60/CircleDetectionScene.mp4'
 file 'media/videos/scene3/1080p60/PolarTransformScene.mp4'
-file 'media/videos/scene4_results_code/1080p60/ResultsScene.mp4'
+file 'media/videos/scene4/1080p60/ResultsScene.mp4'
 ```
 
 **Step 3**: Merge all scenes
@@ -323,7 +323,7 @@ manim -pql scenes/your_scene.py SceneClassName
 manim -pqh scenes/scene1.py IntroSceneWithTitles
 manim -pqh scenes/scene2.py CircleDetectionScene
 manim -pqh scenes/scene3.py PolarTransformScene
-manim -pqh scenes/scene4_results_code.py ResultsScene
+manim -pqh scenes/scene4.py ResultsScene
 
 # 2. Merge into complete video
 ffmpeg -f concat -safe 0 -i merge_list.txt -c copy COMPLETE_PRESENTATION.mp4

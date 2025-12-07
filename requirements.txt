@@ -1,0 +1,19 @@
+# Manim Presentation Project - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core animation framework
+manim>=0.18.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Video editing (optional, for Python-based merging)
+# Uncomment if you want to use merge_scenes.py instead of FFmpeg
+# moviepy>=1.0.3
+
+# Additional useful packages
+matplotlib>=3.7.0

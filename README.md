@@ -104,7 +104,7 @@ SC_presentation/
 │   ├── scene1.py                    # Introduction with titles
 │   ├── scene2.py                    # Circle detection method
 │   ├── scene3.py                    # Polar transformation
-│   └── scene4.py     # Results and conclusions
+│   └── scene4.py                    # Results and conclusions
 │
 ├── data/                            # Experimental data
 │   └── d4_T20_1.JPG                 # LN2-water experimental image

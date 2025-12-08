@@ -59,7 +59,7 @@ All required packages are listed in `requirements.txt`
 
 ### 1. Get the Project Files
 
-#### Option A: Clone from GitHub (if available)
+#### Option A: Clone from GitHub
 ```bash
 git clone https://github.com/ayman-alashkar/SC_presentation.git
 cd SC_presentation

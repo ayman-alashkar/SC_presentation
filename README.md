@@ -1,7 +1,7 @@
-createdzing Nitrogen-Water Instabilities Using Python
+# Analysing Nitrogen-Water Instabilities Using Python
 ## A Manim Presentation Project
 
-This repository contains a presentation for the scientific computing course proscientificted using [Manim Community](https://www.manim.community/) - the mathematical animation engine made famous by 3Blue1Brown.
+This repository contains a presentation for the scientific computing course project at OIST, using [Manim Community](https://www.manim.community/) - the mathematical animation engine made famous by 3Blue1Brown.
 
 ---
 

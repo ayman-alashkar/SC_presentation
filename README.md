@@ -15,7 +15,7 @@ This repository contains a scientific presentation created using [Manim Communit
 - [Creating the Complete Presentation](#️-creating-the-complete-presentation)
 - [Editing Guide](#️-editing-guide)
 - [Troubleshooting](#-troubleshooting)
-- [Credits](#-credits)
+- [Contact](#-contact)
 
 ---
 
@@ -333,28 +333,6 @@ ffmpeg -f concat -safe 0 -i merge_list.txt -c copy COMPLETE_PRESENTATION.mp4
 
 ---
 
-## 🎨 Customization Tips
-
-### Adding Your Name
-In `scene1.py`, find the subtitle and modify:
-```python
-subtitle2 = Text("By: Ayman Alashkar", font_size=26, color=YELLOW_E)
-```
-
-### Changing the Color Scheme
-Current colors: BLUE (titles), YELLOW (highlights), ORANGE (accents)
-
-To change throughout all scenes:
-```bash
-# Use Find & Replace in VS Code (Ctrl+Shift+H)
-Find: color=YELLOW
-Replace: color=ORANGE
-```
-
-### Adjusting Scene Duration
-Each scene has multiple `self.wait(X)` commands. Increase/decrease these values to control pacing.
-
----
 
 ## 👨‍🔬 Credits
 

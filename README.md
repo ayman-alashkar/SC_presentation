@@ -371,6 +371,7 @@ For questions about this presentation or the research:
 ## ✨ Acknowledgments
 
 Special thanks to:
+- **Professor Kenji Doya** for guiding me through the Scientific Computing course
 - **Manim Community** for the excellent animation framework
 - **3Blue1Brown** for inspiring mathematical visualization
 - **CFF Unit** for supporting this research
